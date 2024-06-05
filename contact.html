@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Sophisticated Website</title>
+    <title>Contact - My Sophisticated Website</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        <h1>My Sophisticated Website</h1>
+        <h1>Contact Us</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -21,14 +21,16 @@
     </header>
     <main>
         <section>
-            <h2>Welcome to My Website</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin quam at velit interdum, nec
-                facilisis justo aliquet.</p>
-        </section>
-        <section>
-            <h2>Gallery</h2>
-            <img src="images/pic1.jpg" alt="Picture 1">
-            <img src="images/pic2.jpg" alt="Picture 2">
+            <h2>Get in Touch</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
     <footer>
